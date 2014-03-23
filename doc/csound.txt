@@ -25,9 +25,6 @@ Conditional reading of code.
 	 ....
 		#end	
 
---------------------------------------------------------------------------
-*#end*
-
 Conditional reading of code.
 
 		#ifndef	 NAME
@@ -120,36 +117,21 @@ Compares two values for equality.
 
 	(a 	==	 b 	?	 v1 	:	 v2)
 
---------------------------------------------------------------------------
-*:*
-
 Determines if one value is greater than another.
 
 	(a 	>	 b 	?	 v1 	:	 v2)
-
---------------------------------------------------------------------------
-*:*
 
 Determines if one value is greater than or equal to another.
 
 	(a 	>=	 b 	?	 v1 	:	 v2)
 
---------------------------------------------------------------------------
-*:*
-
 Determines if one value is less than another.
 
 	(a 	<	 b 	?	 v1 	:	 v2)
 
---------------------------------------------------------------------------
-*:*
-
 Determines if one value is less than or equal to another.
 
 	(a 	<=	 b 	?	 v1 	:	 v2)
-
---------------------------------------------------------------------------
-*:*
 
 Determines if one value is not equal to another.
 
@@ -169,9 +151,6 @@ Assign value to a string variable
 
 	Sdst 	strcpy	 Ssrc
 	Sdst 	=	 Ssrc
-
---------------------------------------------------------------------------
-*=*
 
 Performs a simple assignment.
 
@@ -348,9 +327,6 @@ Hides the target FLTK widget.
 Displays a box with a grid useful for visualizing two-dimensional Hyper Vectorial Synthesis.
 
 	ihandle 	FLhvsBox	 inumlinesX, inumlinesY, iwidth, iheight, ix, iy [, image]
-
---------------------------------------------------------------------------
-*FLhvsBox*
 
 Sets the cursor position of a previously-declared FLhvsBox widget.
 
@@ -2692,9 +2668,6 @@ Return the RGB pixel values of a previously opened or created image.
 
 	ared agreen ablue 	imagegetpixel	 iimagenum, ax, ay
 	kred kgreen kblue 	imagegetpixel	 iimagenum, kx, ky
-
---------------------------------------------------------------------------
-*imagegetpixel*
 
 Set the RGB value of a pixel inside a previously opened or created image.
 
@@ -5415,9 +5388,6 @@ Arbitrary signal scaling.
 
 	kscl 	scale	 kinput, kmax, kmin
 
---------------------------------------------------------------------------
-*scale*
-
 Scale the amplitude of a sound file.
 
 		scale	 [OPTIONS ... ] infile
@@ -5996,9 +5966,6 @@ Split a trigger signal
 printf-style formatted output to a string variable at k-rate.
 
 	Sdst 	sprintfk	 Sfmt, xarg1[, xarg2[, ... ]]
-
---------------------------------------------------------------------------
-*sprintfk*
 
 printf-style formatted output to a string variable.
 
@@ -6658,9 +6625,6 @@ Branches conditionally at initialization or during performance time.
 		if	 ka R kb 	kgoto	 label
 		if	 xa R xb 	goto	 label
 		if	 xa R xb 	then	
-
---------------------------------------------------------------------------
-*then*
 
 Defines another "if...then" condition when a "if...then" condition is false.
 
