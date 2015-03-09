@@ -18,7 +18,7 @@ set foldmethod=syntax
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " load list of all opcodes from a file
-source $HOME/.vim/bundle/csound-vim/syntax/csound_opcodes.vim
+runtime! syntax/csound_opcodes.vim
 
 " csound opcodes and operators
 
